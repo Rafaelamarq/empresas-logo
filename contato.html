@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresas Logo - Contato</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/grid.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsivo.css">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-3"><img src="./img/logo.svg" alt="logotigo Logo"></a>
+      <nav class="grid-13 menu">
+        <ul>
+          <li> <a href="index.html">Inicial</a></li>
+          <li> <a href="sobre.html">Sobre</a></li>
+          <li> <a href="servicos.html">Serviços</a></li>
+          <li> <a href="contato.html" class="menu-ativo">Contato</a></li>
+        </ul>
+      </nav>
+    </div>  
+  </header>
+
+  <section class="container introducao-interna">
+    <h1 data-anime="400" class="fadeInDown">Contato</h1>
+  </section>
+
+  <section data-anime="800" class="fadeInDown container contato-conteudo">
+    <div class="container grid-8 form">
+      <form action="">
+        <label for="name">Nome</label>
+        <input type="text" id="name" required>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required>
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone">
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mansagem" id="mensagem" cols="30" rows="10"></textarea>
+        <button class="btn">Enviar</button>
+      </form>
+    </div>
+    <div class="container grid-8 dados">
+      <div class="dados-contato">  
+        <h2>Contatos:</h2>
+        <ul>
+          <li> +55 11 99999-9999</li>
+          <li> +55 11 33333-3333</li>
+          <li> contato@logo.com.br</li>
+        </ul>
+      </div>
+      <div class="dados-endereco">
+        <h2>Endereços:</h2>
+        <ul>
+          <li> Rua Por Ali, nº 1000. Bairro Paraíso. CEP: 01000-000 -  São Paulo/SP</li>
+          <li> Rua Por Ali, nº 1000. Bairro Paraíso. CEP: 01000-000 -  Campinas/SP</li>
+        </ul>
+      </div>
+      <div class="dados-redes">
+        <h2>Redes Sociais:</h2>
+        <ul>
+          <li><a href="http://facebook.com"><img src="./img/facebookpreto.jpg" alt="facebook"></a></li>
+          <li><a href="http://instagram.com"><img src="./img/instagrampreto.jpg" alt="instagram"></a></li>
+          <li><a href="http://twitter.com"><img src="./img/twitterpreto.jpg" alt="twitter"></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer">
+      <div class="container footer-conteudo">
+        <div class="grid-4 footer-contato">
+          <h2>Contatos:</h2>
+          <ul>
+            <li> +55 11 99999-9999</li>
+            <li> +55 11 33333-3333</li>
+            <li> contato@logo.com.br</li>
+          </ul>
+        </div>
+        <div class="grid-7 footer-endereco">
+          <h2>Endereços:</h2>
+          <ul>
+            <li> Rua Por Ali, nº 1000. Bairro Paraíso. CEP: 01000-000 -  São Paulo/SP</li>
+            <li> Rua Por Ali, nº 1000. Bairro Paraíso. CEP: 01000-000 -  Campinas/SP</li>
+          </ul>
+        </div>
+        <div class="grid-5 footer-redes">
+          <h2>Redes Sociais:</h2>
+          <ul>
+            <li><a href="http://facebook.com"><img src="./img/facebook.png" alt="facebook"></a></li>
+            <li><a href="http://instagram.com"><img src="./img/instagram.png" alt="instagram"></a></li>
+            <li><a href="http://twitter.com"><img src="./img/twitter.png" alt="twitter"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container copywright">
+      <p class="container">Logo 2021 - Alguns direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="./js/simple-anime.js"></script>
+
+</body>
+</html>

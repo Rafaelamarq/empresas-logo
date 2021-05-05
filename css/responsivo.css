@@ -1,0 +1,148 @@
+/* Estilo para Tablets */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+	/* Header */
+	.header {
+		position: relative;
+		padding-bottom: 0;
+	}
+
+	/* Introdução */
+	.introducao {
+		margin-top: 0px;
+	}
+
+	/* Página Inicial */
+	.inicial-servicos {
+		height: 580px;
+	}
+	.inicial-servicos-img {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.inicial-servicos-img img {
+		width: 236px;
+	}
+
+	/* Introduçaõ Interna */
+	.introducao-interna {
+		margin-top: 0px;
+	}
+
+	/* Página Sobre */
+	.sobre-conteudo .img-fundador {
+		max-width: max-content;
+		padding-left: 120px;
+		margin: 0 auto;
+	}
+	.sobre-conteudo .texto-fundador {
+		display: block;
+		width: 748px;
+		padding-left: 120px;
+	}
+	.sobre-conteudo .texto-equipe1 {
+		padding-top: 20px;
+	}
+
+	/* Página Serviços */
+	.slide ul li img {
+		width: 748px;
+	}
+
+
+}
+
+/* Estilo para Smartphone */
+@media only screen and (max-width: 787px) {
+
+	p {
+		font-size: 12px;
+	}
+	/* Header */
+	.header {
+		position: relative;
+		padding-bottom: 0;
+		height: 120px;
+		text-align: center;
+	}
+	.menu {
+		text-align: center;
+		padding-top: 0px;
+		width: 300px;
+		font-size: 12px;
+	}
+	.menu ul li a:hover {
+		padding-bottom: 9px;
+	}
+	.menu ul li a.menu-ativo {
+		padding-bottom: 9px;
+	}
+
+	/* Introdução */
+	.introducao {
+		margin-top: 0px;
+	}
+	.introducao h1 {
+		font-size: 36px;
+	}
+	.introducao p {
+		font-size: 12px;
+	}
+
+	/* Introduçaõ Interna */
+	.introducao-interna {
+		margin-top: 0px;
+	}
+	.introducao-interna h1 {
+		font-size: 36px;
+	}
+	
+	/* Inicial - Sobre */
+	.texto-sobre {
+		margin-top: -40px;
+		padding-top: 0px;
+		text-align: center;
+	}
+	.inicial-sobre .calltoaction p {
+		margin-top: -20px;
+	}
+
+	/* Inicial - Serviços */
+	.inicial-servicos {
+		height: 1630px;
+		margin-top: 50px;
+	}
+	.inicial-servicos .calltoaction p {
+		margin-top: -30px;
+		margin-bottom: 50px;
+	}
+	.inicial-servicos img {
+		width: 300px;
+	}
+
+	/* Página Sobre */
+	.sobre-conteudo .img-fundador {
+		padding-left: 0px;
+	}
+	.sobre-conteudo .texto-fundador {
+		padding-right: 0px;
+		padding-left: 0px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.sobre-conteudo .texto-equipe1, .sobre-conteudo .texto-equipe2 {
+		font-size: 14px;
+		line-height: 20px;
+	 	padding-top: 0px;
+		padding-bottom: 0px; 
+	}
+	.sobre-conteudo .texto-equipe1, .sobre-conteudo .texto-equipe2, .sobre-conteudo .img-equipe {
+		padding-left: 0px;
+	}
+
+	/* Página Serviços */
+	.slide ul li img {
+		width: 300px;
+	}
+	
+}
